@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="loader">
-        <div class="loader-content">Loading...</div>
+        <!-- <div class="loader-content">Loading...</div> -->
     </div>
 
     <header>
@@ -27,6 +27,11 @@
             </ul>
         </nav>
     </header>
+   
+
+   <div class="rocket"></div>
+
+    
 
     <section id="home" class="hero">
         <div class="content">
@@ -53,20 +58,54 @@
     <section id="experience">
         <h2>Experience</h2>
         <div class="experience-item">
-            <h3>Founder’s Office Intern - Crafting Dialogue</h3>
+            <h3 style="color:orange;">Founder’s Office Intern - Crafting Dialogue</h3>
             <p>Pune, Maharashtra, India</p>
             <p>May 2024 - July 2024</p>
             <p>Skills: ZOHO tools (Forms, Flows, Creator), Cloud Service, Email & Workflow Automation, Payment & Excel Integration</p>
         </div>
     </section>
 
+    
+   
+
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Project Title</h3>
-            <p>Brief description of the project.</p>
+        <h2 style="color: rgb(255, 255, 255);";>Projects</h2>
+        <div id="categories">
+            <button class="category-btn" data-category="all">All</button>
+            <button class="category-btn" data-category="java">Java</button>
+            <button class="category-btn" data-category="autocad">AutoCAD</button>
+            <button class="category-btn" data-category="web">Web</button>
+            <button class="category-btn" data-category="react">React</button>
+            <button class="category-btn" data-category="python">Python</button>
+            <button class="category-btn" data-category="ai-ml">AI & ML</button>
+        </div>
+        <div class="project-scroll-wrapper">
+            <button id="scroll-left" class="scroll-btn">
+                <i class="arrow-left-s-line"></i>
+            </button>
+            <div id="project-container" class="project-container">
+                <!-- Project cards will be inserted dynamically here -->
+            </div>
+            <button id="scroll-right" class="scroll-btn">
+                <i class="arrow-right-s-line"></i>
+            </button>
         </div>
     </section>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- <section id="contact">
         <h2>Contact</h2>
@@ -97,11 +136,11 @@
             <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
           </div>
         </div>
-      </section>
+    </section>
 
-    <footer>
+    <!-- <footer>
         <p>&copy; 2024 Siddhivinayak Waghmode. All Rights Reserved.</p>
-    </footer>
+    </footer> -->
 
     <script src="script.js"></script>
 </body>
