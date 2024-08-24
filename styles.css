@@ -48,7 +48,7 @@ body {
 }
 
 .launching {
-  animation: launch 10s linear infinite;
+  animation: launch 10s linear ;
 }
 
 
