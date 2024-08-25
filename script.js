@@ -172,7 +172,29 @@ document.querySelector('.nav-toggle').addEventListener('click', function() {
 
 
 
+// document.addEventListener("DOMContentLoaded", () => {
+//   const rocket = document.querySelector('.rocket');
+//   rocket.classList.add('launching');
+// });
 document.addEventListener("DOMContentLoaded", () => {
   const rocket = document.querySelector('.rocket');
-  rocket.classList.add('launching');
+  rocket.addEventListener('click', () => {
+      rocket.classList.add('launching');
+  });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
 </head>
-<body>
+<body >
     <div id="loader">
         <!-- <div class="loader-content">Loading...</div> -->
     </div>
@@ -20,10 +20,10 @@
         <nav id="sidebar" class="sidebar">
             <ul>
                 <li><a href="index.html"><i class="ri-home-line"></i> Home</a></li>
-                <li><a href="#skills"><i class="ri-code-s-slash-line"></i> Skills</a></li>
-                <li><a href="#experience"><i class="ri-briefcase-line"></i> Experience</a></li>
-                <li><a href="#projects"><i class="ri-folder-line"></i> Projects</a></li>
-                <li><a href="#contact"><i class="ri-mail-line"></i> Contact</a></li>
+                <li><a href="index.html"><i class="ri-code-s-slash-line"></i> Skills</a></li>
+                <li><a href="index.html"><i class="ri-briefcase-line"></i> Experience</a></li>
+                <li><a href="index.html"><i class="ri-folder-line"></i> Projects</a></li>
+                <li><a href="index.html"><i class="ri-mail-line"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -41,35 +41,102 @@
             <h1>Siddhivinayak Waghmode</h1>
             <p>Innovator | Engineer | Manufacturer</p>
             <a href="#contact" class="btn">Get in Touch</a>
+            <a href="SV Resume.pdf" class="btn">Download Resume</a>
         </div>
     </section>
+
+    
 
     <section id="skills">
-        <h2>Industry Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Business Analytics and Process Management</li>
-            <li>Machine Learning using Python</li>
-            <li>Stakeholder Management</li>
-            <li>Automation</li>
-        </ul>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3 style="color:orange;">Founder’s Office Intern - Crafting Dialogue</h3>
-            <p>Pune, Maharashtra, India</p>
-            <p>May 2024 - July 2024</p>
-            <p>Skills: ZOHO tools (Forms, Flows, Creator), Cloud Service, Email & Workflow Automation, Payment & Excel Integration</p>
+        <h2 style="color:rgb(125, 255, 222) ">Industry Skills & Certifications</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <div class="skill-content">
+                    <h3>Java</h3>
+                    <img src="certificates/java.PNG" alt="Java Certificate">
+                    <a href="certificates/java.pdf" target="_blank" class="view-btn">View</a>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-content">
+                    <h3>Business Analytics </h3>
+                    <img src="certificates/business analytics.PNG" alt="Business Analytics Certificate">
+                    <a href="certificates/business analytics.pdf" target="_blank" class="view-btn">View</a>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-content">
+                    <h3>Machine Learning using Py</h3>
+                    <img src="certificates/ml.PNG" alt="Machine Learning Certificate">
+                    <a href="certificates/ml.pdf" target="_blank" class="view-btn">View</a>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-content">
+                    <h3>Stakeholder Management</h3>
+                    <img src="certificates/stakeholder.PNG" alt="Stakeholder Management Certificate">
+                    <a href="certificates/stakeholder.pdf" target="_blank" class="view-btn">View</a>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-content">
+                    <h3>Automation</h3>
+                    <img src="certificates/Automation.PNG" alt="Automation Certificate">
+                    <a href="certificates/Automation.pdf" target="_blank" class="view-btn">View</a>
+                </div>
+            </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    <section id="experience">
+        <h2 style="color:rgb(125, 255, 222) ">Experience</h2>
+        <div class="experience-card">
+            <div class="company-logo">
+                <img src="exp1.png" alt="Crafting Dialogue Logo">
+            </div>
+            <div class="experience-details">
+                <h3 class="position-title-1">Founder’s Office Intern</h3>
+                <p class="company-location">Crafting Dialogue - Pune, Maharashtra, India</p>
+                <p class="experience-duration">May 2024 - July 2024</p>
+                <p class="experience-skills">Skills: ZOHO tools (Forms, Flows, Creator), Cloud Service, Email & Workflow Automation, Payment & Excel Integration</p>
+                <a href="Internship Completion Letter.pdf" class="view-certificate-btn" target="_blank">View Completion Certificate</a>
+            </div>
+        </div>
+        <div class="experience-card">
+            <div class="company-logo">
+                <img src="exp2.jpg" alt="Crafting Dialogue Logo">
+            </div>
+            <div class="experience-details">
+                <h3 class="position-title-2"> Mindspark Co-ordinator</h3>
+                <p class="company-location">Shivajinagar Pune</p>
+                <p class="experience-duration">Aug 2024-Present</p>
+                <p class="experience-skills">Stakeholder Management, Quotation</p>
+                <a href="#" class="view-certificate-btn" target="_blank">View Completion Certificate</a>
+            </div>
+        </div>
+    </section>
+    
 
     
    
 
     <section id="projects">
-        <h2 style="color: rgb(255, 255, 255);";>Projects</h2>
+        <h2 style="color:rgb(125, 255, 222) ";>Projects</h2>
         <div id="categories">
             <button class="category-btn" data-category="all">All</button>
             <button class="category-btn" data-category="java">Java</button>
@@ -107,18 +174,10 @@
 
 
 
-    <!-- <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn">Submit</button>
-        </form>
-    </section> -->
+  
 
     <section id="contact">
-        <h3 style="color: black;">Want your Personal Portfolio Website?</h3>
+        <h3 style="color:rgb(125, 255, 222) ">Want your Personal Portfolio Website?</h3>
         <h2 style="color: rgb(255, 255, 255); font-size:25px;">Contact Me</h2>
         <form id="contact-form" action="https://script.google.com/macros/s/AKfycbxxaKM61cBPRlv_2pgMJd7n2er2alqwO8HCXV_-f7v_uKgUwtd76086kkce0Mk3SkWY/exec" method="POST">
           <input type="text" name="name" placeholder="Your Name" required />
